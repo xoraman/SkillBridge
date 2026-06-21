@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skillbridge.web", "skillbridge.web.csproj", "{50CC663F-0ABE-4A44-A6CD-5F8EFF9E33C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skillbridge.Web", "skillbridge.Web.csproj", "{50CC663F-0ABE-4A44-A6CD-5F8EFF9E33C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skillbridge.Business", "..\skillbridge.Business\skillbridge.Business.csproj", "{574A33C4-7755-4554-9023-C48B0DF12FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "skillbridge.Data", "..\skillbridge.Data\skillbridge.Data.csproj", "{C76A6A5F-EBF0-4F58-9F1F-3F6109232074}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{50CC663F-0ABE-4A44-A6CD-5F8EFF9E33C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50CC663F-0ABE-4A44-A6CD-5F8EFF9E33C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50CC663F-0ABE-4A44-A6CD-5F8EFF9E33C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574A33C4-7755-4554-9023-C48B0DF12FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574A33C4-7755-4554-9023-C48B0DF12FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574A33C4-7755-4554-9023-C48B0DF12FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574A33C4-7755-4554-9023-C48B0DF12FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C76A6A5F-EBF0-4F58-9F1F-3F6109232074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76A6A5F-EBF0-4F58-9F1F-3F6109232074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76A6A5F-EBF0-4F58-9F1F-3F6109232074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76A6A5F-EBF0-4F58-9F1F-3F6109232074}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
