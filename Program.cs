@@ -32,4 +32,8 @@ if (app.Environment.IsDevelopment())
 }
 app.MapFallbackToFile("index.html");
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
+
 app.Run();
